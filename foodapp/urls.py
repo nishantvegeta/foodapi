@@ -1,5 +1,4 @@
 from django.urls import path
-from . import views
 from foodapp.views import food_list,food_detail, food_post , update_food
 
 urlpatterns = [
