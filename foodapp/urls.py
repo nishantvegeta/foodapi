@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-from views import food_list,food_detail, food_post , update_food
+from foodapp.views import food_list,food_detail, food_post , update_food
 
 urlpatterns = [
     path('food', food_list, name='food_list'),
